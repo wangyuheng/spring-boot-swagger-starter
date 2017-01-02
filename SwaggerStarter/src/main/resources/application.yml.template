@@ -1,0 +1,12 @@
+swagger:
+  groupName: 分类(groupName)
+  title: 标题(title)
+  description: 介绍(description)
+  termsOfServiceUrl: 服务URL(termsOfServiceUrl)
+  version: 版本(version)
+  contactName: 作者名(contactName)
+  contactUrl: 作者主页(contactUrl)
+  contactEmail: 作者邮箱(contactEmail)
+  paths: /upload.*,/category.*
+  license:
+  licenseUrl:
