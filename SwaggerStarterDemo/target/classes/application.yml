@@ -1,0 +1,12 @@
+swagger:
+  groupName:
+  title:
+  description:
+  termsOfServiceUrl:
+  version:
+  contactName:
+  contactUrl:
+  contactEmail:
+  paths: /upload.*, /category.*
+  license:
+  licenseUrl:
