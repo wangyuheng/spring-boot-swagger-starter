@@ -11,7 +11,7 @@ spring-boot项目快速添加swagger包括swagger-ui，用于管理接口文档�
     </dependency>
 ```
 
-### 发布starter到本地仓库
+如果下载失败，可以发布starter到本地仓库
 在**SwaggerStarter**目录执行
 
 ```
@@ -19,6 +19,7 @@ spring-boot项目快速添加swagger包括swagger-ui，用于管理接口文档�
 ```
 
 此命令可以将jar添加进本地仓库
+
 ### 运行demo
 在SwaggerStarterDemo目录执行
 
@@ -30,6 +31,24 @@ spring-boot项目快速添加swagger包括swagger-ui，用于管理接口文档�
 或者可以将项目导入常用IDE运行。
 ### 编辑配置文件
 配置文件路径为 **spring-boot-swagger-starter/SwaggerStarterDemo/src/main/resources**，修改对应的配置项，重新启动可以在demo页面查看变动。
+
+#### 配置参数
+
+```yaml
+    swagger:
+      groupName: 分类(groupName)
+      title: 标题(title)
+      description: 介绍(description)
+      termsOfServiceUrl: 服务URL(termsOfServiceUrl)
+      version: 版本(version)
+      contactName: 作者名(contactName)
+      contactUrl: 作者主页(contactUrl)
+      contactEmail: 作者邮箱(contactEmail)
+      paths: /upload.*,/category.*
+      license:
+      licenseUrl:
+```
+
 ## 设计
 starter为方便项目使用，尽量简化，不添加无用依赖，自动化部分设置，留出配置文件方便定制化。
 
