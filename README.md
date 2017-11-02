@@ -1,6 +1,16 @@
 # spring-boot-swagger-starter
 spring-boot项目快速添加swagger包括swagger-ui，用于管理接口文档以及页面调试
 ## 使用方法
+**0.0.1已发布到maven中央仓库，欢迎使用**
+
+```xml
+    <dependency>
+        <groupId>com.github.wangyuheng</groupId>
+        <artifactId>swagger-starter</artifactId>
+        <version>0.0.1</version>
+    </dependency>
+```
+
 ### 发布starter到本地仓库
 在**SwaggerStarter**目录执行
 
