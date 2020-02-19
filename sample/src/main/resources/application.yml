@@ -1,12 +1,12 @@
 swagger:
-  groupName:
-  title:
-  description:
+  groupName: GroupName
+  title: ApiTitle
+  description: This is a sample
   termsOfServiceUrl:
-  version:
-  contactName:
-  contactUrl:
-  contactEmail:
+  version: 0.0.2
+  contactName: wangyuheng
+  contactUrl: crick.wang
+  contactEmail: wangyuheng@outlook.com
   paths: /upload.*, /category.*
-  license:
+  license: MIT
   licenseUrl:
