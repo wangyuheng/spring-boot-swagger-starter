@@ -29,7 +29,7 @@ hs_err_pid*
 *.ipr
 
 HELP.md
-target/
+**/target
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
