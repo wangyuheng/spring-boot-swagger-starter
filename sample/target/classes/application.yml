@@ -8,5 +8,5 @@ swagger:
   contactUrl: crick.wang
   contactEmail: wangyuheng@outlook.com
   paths: /upload.*, /category.*
-  license: MIT
+  license:
   licenseUrl:
