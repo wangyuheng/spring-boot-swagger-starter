@@ -35,3 +35,7 @@ HELP.md
 !**/src/test/**
 
 **/.DS_Store
+
+.classpath
+.settings
+target
